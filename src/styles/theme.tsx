@@ -1,11 +1,17 @@
 /* eslint-disable import/no-default-export */
 import { extendTheme } from "@chakra-ui/react";
 
+// color scheme: https://coolors.co/dad2d8-143642-0f8b8d-ec9a29-a8201a
 const theme = extendTheme({
 	colors: {
 		brand: {
 			secondary: "#F1F1F1",
 			primary: "#F1F1F1",
+			text: "#0C485E",
+			header: {
+				bg: "#F1F1F1",
+				title: "#1AA7EC",
+			}
 		},
 	},
 	styles: {
@@ -16,7 +22,7 @@ const theme = extendTheme({
 			body: {
 				fontFamily:
 					"-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
-				color: "#0C485E",
+				color: "brand.text",
 				lineHeight: "base",
 				padding: 0,
 				margin: 0,
