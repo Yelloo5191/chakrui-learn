@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Text, VStack, HStack, Link, Button } from "@chakra-ui/react";
+import { Heading, VStack, HStack, Link, Button } from "@chakra-ui/react";
 
 export default function Home(): JSX.Element {
 	return (

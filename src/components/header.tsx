@@ -1,6 +1,4 @@
-import { Heading, HStack, Text, Link, Button } from "@chakra-ui/react";
-import NextChakraLink from "@components/nextChakraLink";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { Heading, HStack, Link, Button } from "@chakra-ui/react";
 
 // eslint-disable-next-line import/no-default-export
 export default function Main(): JSX.Element {
