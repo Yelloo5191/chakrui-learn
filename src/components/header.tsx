@@ -12,7 +12,6 @@ export default function Main(): JSX.Element {
 			<ContainerInside>
 				<HStack
 					justify="space-between"
-					bg="brand.header.bg"
 					px="50px"
 					py="20px"
 					as="header"

@@ -8,8 +8,9 @@ const theme = extendTheme({
 			secondary: "#F1F1F1",
 			primary: "#F1F1F1",
 			text: "#0C485E",
+			boxbg: "#E6E6E6",
 			header: {
-				bg: "#F1F1F1",
+				bg: "rgb(125,214,246,25%)",
 				title: "#1AA7EC",
 			}
 		},
