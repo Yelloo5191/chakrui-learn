@@ -19,11 +19,13 @@ export default function Home(): JSX.Element {
 									<Text fontSize="40px" textAlign="center"><strong>Free Online Courses</strong> taught by <strong>Professionals</strong></Text>
 								</HStack>
 								<Text pt="10px" fontSize="20px" textAlign="center">Learn <strong>coding, concept development, game dev fundamentals, and web design.</strong></Text>
-								<Link pt="40px" href="/start" passHref>
-									<Button fontSize="30px" _hover={{ w:"350px" }} _focus={{ boxShadow: "outline" }} bg="#7DD6F6" w="400px" h="75px" borderRadius="50px" transition=".2s ease-in-out">
-										Learn Now
-									</Button>
-								</Link>
+								<Container pt="40px">
+									<Link style={{ textDecoration: 'none' }} href="/start" passHref>
+										<Button fontSize="30px" _hover={{ w:"350px" }} _focus={{ boxShadow: "outline" }} bg="#7DD6F6" w="400px" h="75px" borderRadius="50px" transition=".2s ease-in-out">
+											Learn Now
+										</Button>
+									</Link>
+								</Container>
 							</VStack>
 						</VStack>
 					</HStack>

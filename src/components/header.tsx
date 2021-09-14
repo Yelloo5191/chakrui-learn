@@ -17,11 +17,15 @@ export default function Main(): JSX.Element {
 					as="header"
 				>
 					<HStack>
-						<img src="/programming_simplified.svg" alt="logo" width="50px"/>
-						<Heading color="brand.header.title">Programming Simplifed</Heading>
+						<Link style={{ textDecoration: "none" }} color="brand.header.title" href="/" passHref>
+							<img src="/programming_simplified.svg" alt="logo" width="50px"/>
+						</Link>
+						<Link style={{ textDecoration: "none" }} color="brand.header.title" href="/" passHref>
+							<Button fontSize="35px" fontWeight="bold" variant="contained" color="secondary">Programming Simplified</Button>
+						</Link>
 					</HStack>
 					<HStack justify="center" align="center">
-						<Link href="/home" passHref>
+						<Link href="/" passHref>
 							<Button variant="contained" color="secondary">Home</Button>
 						</Link>
 						<Link href="/courses" passHref>
